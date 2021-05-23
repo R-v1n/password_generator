@@ -25,7 +25,7 @@ func permute(per_text string, init, final int) {
 
 func main() {
 	var text string
-	text = "ABCDEFGHI"
+	text = "enter the text to permute"
 	final := len([]rune(text)) - 1
 	permute(text, 0, final)
 	fmt.Printf("total permutation count :: >> %d ", perm_count)
