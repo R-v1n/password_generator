@@ -31,7 +31,7 @@ func permute(per_text string, final int) {
 
 func main() {
 	var text string
-	text = "ABCD"
+	text = "text to create permutation"
 	final := len([]rune(text))
 	permute(text, final)
 	fmt.Println("the total no of permuation is :>> ", perm_count)
